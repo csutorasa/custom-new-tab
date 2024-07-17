@@ -16,3 +16,19 @@ Themes are supported only in Firefox.
 ## Translation
 
 Anyone is free to contribute [translations](translations.js).
+
+## Development
+
+## Chrome
+
+[Load the unpacked extension]((https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)) from this directory.
+
+## Firefox
+
+Pack the extension.
+
+```shell
+./pack.sh
+```
+
+[Load Temporary Add-on]((https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/)) from the `release.zip` file.
