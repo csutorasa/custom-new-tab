@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Custom new tab",
     "short_name": "custom-new-tab",
-    "version": "1.0.2",
+    "version": "1.0.1",
     "description": "Custom new tab page with minimal implementation and permissions.",
     "permissions": ["storage"],
     "chrome_url_overrides": {
