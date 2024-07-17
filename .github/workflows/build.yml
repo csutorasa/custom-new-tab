@@ -1,0 +1,30 @@
+name: Build
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build extension
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Upload output
+        uses: actions/upload-artifact@v4
+        with:
+          name: custom-new-tab-extension
+          path: |
+            index.html
+            index.js
+            LICENSE
+            manifest.json
+            options.html
+            options.js
+            storage.js
+            translations.js
