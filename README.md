@@ -7,6 +7,8 @@ The only permissions it needs is `storage`, so it can store the configuration on
 
 ## Browser support
 
+Official [Mozilla add-on](https://addons.mozilla.org/en-US/firefox/addon/custom-new-tab-minimal/) is available for [Firefox](https://www.mozilla.org/firefox/).
+
 This extension uses the Manifest V3 of the extensions platform.
 Latest versions of [Chrome](https://www.google.com/chrome/) and [Firefox](https://www.mozilla.org/firefox/) are tested,
 but most [Chromium](https://www.chromium.org)-based browsers should work.
