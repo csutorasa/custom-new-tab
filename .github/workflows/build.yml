@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
       
       - name: Upload output
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: custom-new-tab-extension
           path: |
